@@ -28,6 +28,7 @@ li {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 button,
@@ -35,6 +36,9 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  padding-block: 0;
+  padding-inline: 0;
+  border: none;
 }
 
 ul,
@@ -50,4 +54,8 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+img {
+  width: 100%;
 }
