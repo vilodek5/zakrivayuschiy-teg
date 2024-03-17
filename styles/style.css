@@ -59,6 +59,7 @@
 
 .header__theme-menu {
   margin-block-start: 25px;
+  margin-inline-start: 18px;
   font-size: 14px;
 }
 
@@ -137,6 +138,10 @@
   font-variation-settings: 'wght' var(--weight-text);
   font-size: 18px;
   line-height: 21px;
+}
+
+.card__content p:first-child {
+  margin-block-end: 2px;
 }
 
 .card__buttons {
