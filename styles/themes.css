@@ -5,7 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 .page.theme-dark {
-  --weight-text: 460;
+  --weight-text: 465;
   --weight-title: 785;
 
   --bg-color: #000000;
@@ -30,7 +30,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --weight-text: 460;
+    --weight-text: 465;
     --weight-title: 785;
   
     --bg-color: #000000;
